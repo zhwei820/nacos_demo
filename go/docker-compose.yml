@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    image: zw/hello:latest
+    volumes:
+      - /data/hello1/log:/data/log
+    environment:
+      - ENV=prod
+    network_mode: host
+    ports:
+      - "8000:8000"
