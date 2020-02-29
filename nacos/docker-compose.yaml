@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+  web:
+    image: nacos/nacos-server
+    # build: .
+    volumes:
+      - ./data/:/home/nacos/data
+    network_mode: bridge
+    environment:
+      - MODE=standalone
+    container_name: nacos
+    ports:
+      - "8848:8848"

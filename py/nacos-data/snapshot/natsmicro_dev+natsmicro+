@@ -1,0 +1,10 @@
+num: 0
+natsmicro_dev: natsmicro_dev
+natsmicro_devnatsmicro_dev: 
+- natsmicro_devnatsmicro_dev
+- natsmicro_dev
+- 100
+- 200
+b:
+  c: 2
+  d: [3, 4]
